@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 100%
+}
+
+.container {
+    padding-top: 1%;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 25vh;
+    /* background: #cecdcd; */
+    /* background: #FFF3F1; */
+    /* background: #F3EED9; */
+    /* background: #FFF6F5; */
+    /* background: #ff1744; */
+    background: #ffffff;
+    /* border: 1px solid black; */
+
+}
+
+.separator{
+    /* margin-top: -10%; */
+    width: 80%;
+    height: 10%;
+    border-bottom: 1px solid black;
+    opacity: 20%;
+}

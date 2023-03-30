@@ -1,0 +1,81 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  height: 88vh;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 80%;
+}
+
+.titleInputField {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  /* border: 1px solid black; */
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 2%;
+}
+
+.titleInputField input{
+    width: 100%;
+    height: 100%;
+}
+
+.titleInputField input ::after{
+    border-color: #ff1744;
+}
+
+.detailsField{
+    margin-top: 30px;
+    width: 100%;
+    /* border: 1px solid; */
+    height: 30%;
+}
+
+.detailsField textarea{
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    word-spacing: 1rem;
+    /* border: 0px; */
+}
+.detailsField textarea:focus{
+    outline: none !important;
+    border: 1px solid #ff1744;
+}
+
+.optionMenu{
+    margin-top: 30px;
+    border: 1px solid;
+    width: 100%;
+    height: 30%;
+}
+.jobPost{
+    width: 100%;
+    height: 10%;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.jobPost button{
+    width: 150px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #ff1744;
+    color: white;
+}

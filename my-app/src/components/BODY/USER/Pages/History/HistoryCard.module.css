@@ -1,0 +1,40 @@
+.main{
+    width: 80%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.cardContainer {
+  width: 30%;
+  height: 20vh;
+  background: #f5f6f7;
+  border-radius: 15px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.items p {
+  margin-top: 1px;
+}
+
+.dateTimeContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 0.4;
+  justify-content: space-between;
+  /* border: 1px solid; */
+  width: 30%;
+  margin-right: 10%;
+}

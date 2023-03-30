@@ -1,0 +1,22 @@
+.cardContainer{
+    width: 60%;
+    height: 20vh;
+    background: #F5F6F7;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.items p{
+    text-decoration: none;
+    margin-top: 1px;
+}
